@@ -1,2 +1,3 @@
 firebase_setup.js
 node_modules
+.env
