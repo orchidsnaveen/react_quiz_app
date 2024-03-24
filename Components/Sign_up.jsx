@@ -52,6 +52,7 @@ export default function SignUpForm({ OnClose }) {
 
             alert("User Created with",user.email,"Success");
             setSignUpData({ username: '', email: '', password: '', phone_number: '' });
+            
 
         } catch (error) {
             alert(error.message);
